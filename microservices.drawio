@@ -1,1 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-09-15T06:54:40.800Z" agent="5.0 (Macintosh)" version="20.3.0" etag="Rj9H0N-4W0CSrIc2cFtJ" type="github"><diagram id="lPHcJnsXkGskHf5I6h_B">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-15T07:06:04.560Z" agent="5.0 (Macintosh)" etag="rq5ePcOyY70JzVQhOJCz" version="20.3.0" type="github">
+  <diagram id="lPHcJnsXkGskHf5I6h_B" name="Page-1">
+    <mxGraphModel dx="946" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="upZUjsw-5CPLim17uPPE-1" value="API Gateway (Kong, Traefik) with OpenID Connect plugin" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;glass=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="270" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
