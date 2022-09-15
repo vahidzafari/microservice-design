@@ -1,4 +1,4 @@
-# microservice-design
+# Microservice Design
 This repository represent a microservice architecture with a simple project
 
 
