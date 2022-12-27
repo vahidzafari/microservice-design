@@ -1,0 +1,29 @@
+version: '3'
+
+services:
+
+  app-postgres:
+    container_name: app-postgres
+    image: 'postgres:14'
+    ports:
+      - "5432:5432"
+    restart: always
+    deploy:
+      mode: replicated
+      replicas: 1
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: users
+
+  oauth-provider:
+    container_name: oauth-provider
+    build:
+      context: ./../oauth-provider
+      dockerfile: ./../oauth-provider/Dockerfile
+    restart: always
+    ports:
+      - "8080:80"
+    deploy:
+      mode: replicated
+      replicas: 1
